@@ -7,6 +7,7 @@ library(rjson)
 
 getTeamResults <- function(vector_teams, round){
   # Store team results as csv for a given round based on a vector of teams slugs
+  # To find your team slug, log in  your Cartola FC account, then click in one team, team slug will be in browser's url
   # vector_teams: vector of team slugs to be passed on (e.g., outliers) 
   # round       : round to get data
   # Simple Use: getTeamResults(c("afinco", "outliers"), 1)
